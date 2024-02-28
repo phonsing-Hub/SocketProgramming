@@ -1,0 +1,8 @@
+[Unit]
+Description=Demo C service
+
+[Service]
+ExecStart=/home/ps/SocketProgramming/echoserver
+
+[Install]
+WantedBy=multi-user.target
